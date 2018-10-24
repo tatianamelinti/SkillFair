@@ -1,0 +1,110 @@
+﻿body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+  font-family:"Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+header p:hover{
+color: #4B0082;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://wallpapersmug.com/download/2560x1600/b67e3e/pizza-slices-food.jpg');
+  background-size: cover;
+  color: #FFFFFF;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0  30px;
+  width: 540px;
+  height: 360px;
+}
+ 
+section.row, .col-sm-6 p {
+font-size: 20px;
+}
+
+.col-sm-6 {
+  margin: 0 0 30px; 
+}
+
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #191970;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #191970;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width:  32px;
+  height: 32px;
+}
